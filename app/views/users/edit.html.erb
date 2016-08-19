@@ -1,0 +1,9 @@
+<h1>Edit User Details</h1>
+<div>
+  <h2>Hi, <%= @user.first_name %></h2>
+  <h3>Your details are as follows:</h3>
+</div>
+<%= render 'form' %>
+
+<%= link_to 'Show', @user %> |
+<%= link_to 'Back', users_path %>
